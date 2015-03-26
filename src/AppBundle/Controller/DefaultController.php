@@ -52,7 +52,13 @@ class DefaultController extends Controller
     /* Q */
 
     /* R */
-
+    /**
+    * @Route("/rat.html", name="rat")
+    */
+    public function stronkaAction()
+    {
+        return $this->render('default/rat.html.twig');
+    }
     /* S */
 
     /* T */
