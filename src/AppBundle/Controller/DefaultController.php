@@ -64,6 +64,13 @@ public function  eggAction()
     {
         return $this->render('default/Fairness.html.twig');
     }
+     /**
+     * @Route("/Fire.html", name="Fire")
+     */
+    public function FireAction()
+    {
+        return $this->render('default/Fire.html.twig');
+    }
     /* G */
     /**
      * @Route("/givehim.html", name="givehim")
