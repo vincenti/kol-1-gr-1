@@ -33,8 +33,14 @@ class DefaultController extends Controller
 
     /* H */
 
-    /* I */
-
+    /* I */    
+    /**
+     * @Route("/insanity.html", name="insanity")
+     */
+    public function insanityAction()
+    {
+        return $this->render('default/insanity.html.twig');
+    }
     /* J */
 
     /* K */
