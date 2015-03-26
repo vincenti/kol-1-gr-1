@@ -50,7 +50,13 @@ public function  LoveAction()
 
 
     /* M */
-
+    /**
+     * @Route("/myhouse.html", name="myhouse")
+     */
+    public function myhouseAction()
+    {
+        return $this->render('default/myhouse.html.twig');
+    }
     /* N */
     /**
      * @Route("/never.html", name="never")
