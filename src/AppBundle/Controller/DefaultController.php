@@ -100,6 +100,13 @@ public function QuicklyAction()
 {
     return $this->render('default/Quickly.html.twig');
 }
+/**
+ * @Route("/Question.html", name="Question")
+ */
+public function QuestionAction()
+{
+    return $this->render('default/Question.html.twig');
+}
     /* R */
     /**
     * @Route("/rat.html", name="rat")
