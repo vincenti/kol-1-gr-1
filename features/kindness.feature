@@ -1,5 +1,6 @@
 Feature: Web pages
 
   Scenario: Kindness
-    Given I am on "kindness.html"
-    Then I should see "Kindness, like grain"
+    Given I am on homepage
+     When I follow "kindness"
+     Then I should see "Kindness, like grain"
