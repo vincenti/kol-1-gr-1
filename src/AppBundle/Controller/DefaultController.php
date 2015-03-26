@@ -59,6 +59,13 @@ public function  LoveAction()
     {
         return $this->render('default/never.html.twig');
     }
+    /**
+     * @Route("/no.html", name="no")
+     */
+    public function NoNewsAction()
+    {
+        return $this->render('default/no.html.twig');
+    }
     /* O */
 
     /* P */
