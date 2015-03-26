@@ -60,6 +60,13 @@ public function keepAction()
 {
     return $this->render('default/keep.html.twig');
 }
+/**
+ * @Route("/kindness.html", name="kindness")
+ */
+public function kindnessAction()
+{
+    return $this->render('default/kindness.html.twig');
+}
 
     /* L */
 /**
