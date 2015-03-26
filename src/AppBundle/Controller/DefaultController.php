@@ -40,6 +40,14 @@ class DefaultController extends Controller
     /* K */
 
     /* L */
+/**
+ * @Route("/Love.html", name="Love")
+ */
+public function  LoveAction()
+{
+    return $this->render('default/Love.html.twig');
+}
+
 
     /* M */
 
