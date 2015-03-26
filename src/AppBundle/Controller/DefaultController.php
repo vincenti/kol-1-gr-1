@@ -48,6 +48,7 @@ class DefaultController extends Controller
         return $this->render('default/prevention.html.twig');
     }
 
+
     /* I */    
     /**
      * @Route("/insanity.html", name="insanity")
@@ -55,6 +56,13 @@ class DefaultController extends Controller
     public function insanityAction()
     {
         return $this->render('default/insanity.html.twig');
+    }
+    /**
+     * @Route("/if-a-job.html", name="if-a-job")
+     */
+    public function ifajobAction()
+    {
+        return $this->render('default/if-a-job.html.twig');
     }
     /* J */
 
