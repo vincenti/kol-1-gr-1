@@ -143,6 +143,13 @@ public function  LearningAction()
     {
         return $this->render('default/myhouse.html.twig');
     }
+    /**
+     * @Route("/thunder.html", name="thunder")
+     */
+    public function thunderAction()
+    {
+        return $this->render('default/thunder.html.twig');
+    }
     /* N */
     /**
      * @Route("/never.html", name="never")
