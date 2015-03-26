@@ -100,7 +100,13 @@ public function  eggAction()
         return $this->render('default/if-a-job.html.twig');
     }
     /* J */
-
+    /**
+ * @Route("/job.html", name="job")
+ */
+public function  jobAction()
+{
+    return $this->render('default/job.html.twig');
+}
     /* K */
 /**
  * @Route("/keep.html", name="keep")
