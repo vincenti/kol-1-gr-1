@@ -101,7 +101,13 @@ public function QuicklyAction()
     return $this->render('default/Quickly.html.twig');
 }
     /* R */
-
+    /**
+    * @Route("/rat.html", name="rat")
+    */
+    public function stronkaAction()
+    {
+        return $this->render('default/rat.html.twig');
+    }
     /* S */
 
     /* T */
