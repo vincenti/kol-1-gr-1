@@ -57,6 +57,13 @@ public function  eggAction()
 }
     /* F */
 
+    /**
+     * @Route("/Fairness.html", name="Fairness")
+     */
+    public function FairnessAction()
+    {
+        return $this->render('default/Fairness.html.twig');
+    }
     /* G */
 
     /* H */
