@@ -52,7 +52,13 @@ public function  LoveAction()
     /* M */
 
     /* N */
-
+    /**
+     * @Route("/never.html", name="never")
+     */
+    public function neverAction()
+    {
+        return $this->render('default/never.html.twig');
+    }
     /* O */
 
     /* P */
