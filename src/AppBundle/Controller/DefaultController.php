@@ -55,6 +55,14 @@ class DefaultController extends Controller
     {
         return $this->render('default/prevention.html.twig');
     }
+    
+      /**
+     * @Route("/pride.html", name="pride")
+     */
+    public function prideAction()
+    {
+        return $this->render('default/pride.html.twig');
+    }
 
     /* I */    
     /**
