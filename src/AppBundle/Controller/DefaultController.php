@@ -76,6 +76,14 @@ public function  LoveAction()
     return $this->render('default/Love.html.twig');
 }
 
+/**
+ * @Route("/Learning.html", name="Learning")
+ */
+public function  LearningAction()
+{
+    return $this->render('default/Learning.html.twig');
+}
+
 
     /* M */
     /**
