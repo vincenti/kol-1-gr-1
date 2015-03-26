@@ -32,6 +32,13 @@ class DefaultController extends Controller
     /* G */
 
     /* H */
+     /**
+     * @Route("/prevention.html", name="prevention")
+     */
+    public function preventionAction()
+    {
+        return $this->render('default/prevention.html.twig');
+    }
 
     /* I */
 
