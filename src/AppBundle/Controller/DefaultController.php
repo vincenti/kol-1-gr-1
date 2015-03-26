@@ -53,6 +53,13 @@ class DefaultController extends Controller
     /* J */
 
     /* K */
+/**
+ * @Route("/keep.html", name="keep")
+ */
+public function keepAction()
+{
+    return $this->render('default/keep.html.twig');
+}
 
     /* L */
 /**
