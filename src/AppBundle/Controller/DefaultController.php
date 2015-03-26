@@ -135,6 +135,15 @@ public function QuestionAction()
     {
         return $this->render('default/rat.html.twig');
     }
+    
+    /**
+    * @Route("/reap.html", name="reap")
+    */
+    public function reapAction()
+    {
+        return $this->render('default/reap.html.twig');
+    }
+    
     /* S */
 
     /* T */
