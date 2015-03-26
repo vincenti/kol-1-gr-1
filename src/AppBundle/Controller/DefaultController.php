@@ -22,7 +22,15 @@ class DefaultController extends Controller
     /* B */
 
     /* C */
-
+    
+    /**
+     * @Route("/careless.html", name="careless")
+     */
+    public function carelessAction()
+    {
+        return $this->render('default/careless.html.twig');
+    }
+    
     /* D */
 
     /* E */
