@@ -48,8 +48,14 @@ class DefaultController extends Controller
         return $this->render('default/prevention.html.twig');
     }
 
-    /* I */
-
+    /* I */    
+    /**
+     * @Route("/insanity.html", name="insanity")
+     */
+    public function insanityAction()
+    {
+        return $this->render('default/insanity.html.twig');
+    }
     /* J */
 
     /* K */
