@@ -38,7 +38,13 @@ class DefaultController extends Controller
     /* F */
 
     /* G */
-
+    /**
+     * @Route("/givehim.html", name="givehim")
+     */
+    public function givehimAction()
+    {
+        return $this->render('default/givehim.html.twig');
+    }
     /* H */
      /**
      * @Route("/prevention.html", name="prevention")
