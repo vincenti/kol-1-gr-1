@@ -83,6 +83,7 @@ public function  eggAction()
         return $this->render('default/pride.html.twig');
     }
 
+
     /* I */    
     /**
      * @Route("/insanity.html", name="insanity")
@@ -90,6 +91,13 @@ public function  eggAction()
     public function insanityAction()
     {
         return $this->render('default/insanity.html.twig');
+    }
+    /**
+     * @Route("/if-a-job.html", name="if-a-job")
+     */
+    public function ifajobAction()
+    {
+        return $this->render('default/if-a-job.html.twig');
     }
     /* J */
 
