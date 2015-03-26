@@ -26,7 +26,13 @@ class DefaultController extends Controller
     /* D */
 
     /* E */
-
+ /**
+ * @Route("/egg.html", name="egg")
+ */
+public function  eggAction()
+{
+    return $this->render('default/egg.html.twig');
+}
     /* F */
 
     /* G */
