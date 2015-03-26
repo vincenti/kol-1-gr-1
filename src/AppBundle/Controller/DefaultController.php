@@ -64,7 +64,13 @@ public function  LoveAction()
     /* P */
 
     /* Q */
-
+/**
+ * @Route("/Quickly.html", name="Quickly")
+ */
+public function QuicklyAction()
+{
+    return $this->render('default/Quickly.html.twig');
+}
     /* R */
 
     /* S */
