@@ -31,6 +31,14 @@ class DefaultController extends Controller
         return $this->render('default/careless.html.twig');
     }
     
+    /**
+     * @Route("/curiosity.html", name="curiosity")
+     */
+    public function curiosityAction()
+    {
+        return $this->render('default/curiosity.html.twig');
+    }
+    
     /* D */
 
     /* E */
