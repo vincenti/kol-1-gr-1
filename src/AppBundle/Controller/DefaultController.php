@@ -47,6 +47,13 @@ class DefaultController extends Controller
     
     /* D */
 
+     /**
+     * @Route("/Dwarf.html", name="Dwarf")
+     */
+    public function DwarfAction()
+    {
+        return $this->render('default/Dwarf.html.twig');
+    }
     /* E */
  /**
  * @Route("/egg.html", name="egg")
