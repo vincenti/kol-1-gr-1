@@ -62,6 +62,14 @@ public function  eggAction()
 {
     return $this->render('default/egg.html.twig');
 }
+
+/**
+ * @Route("/end.html", name="end")
+ */
+public function  endAction()
+{
+    return $this->render('default/end.html.twig');
+}
     /* F */
 
     /**
