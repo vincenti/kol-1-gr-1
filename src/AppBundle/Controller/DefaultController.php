@@ -252,7 +252,13 @@ public function QuestionAction()
     /* V */
 
     /* W */
-
+    /**
+    * @Route("/War.html", name="War")
+    */
+    public function WarAction()
+    {
+        return $this->render('default/War.html.twig');
+    }
     /* X */
 
     /* Y */
